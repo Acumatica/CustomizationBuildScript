@@ -1,0 +1,19 @@
+﻿<DAC type="PX.Objects.CR.Contact">
+    <Field FieldName="UsrPersonalIDType" TypeName="string" MapDbTable="Contact" TextAttributes="#CDATA" StorageName="AddColumn">
+        <CDATA name="TextAttributes"><![CDATA[[PXDBString(1)]
+[PXUIField(DisplayName = "Personal ID Type")]
+[PXStringList(
+  new string[] { "P", "D", "S" },
+  new string[] { "Passport", "Driver's License", "Social Security Number" })]]]></CDATA>
+    </Field>
+    <Field FieldName="UsrPersonalID" TypeName="string" MapDbTable="Contact" TextAttributes="#CDATA" StorageName="AddColumn">
+        <CDATA name="TextAttributes"><![CDATA[[PXDBString(15)]
+[PXUIField(DisplayName="Personal ID")]
+]]></CDATA>
+    </Field>
+    <Field FieldName="UsrCreditRecordVerified" TypeName="bool" MapDbTable="Contact" TextAttributes="#CDATA" StorageName="AddColumn">
+        <CDATA name="TextAttributes"><![CDATA[[PXDBBool]
+[PXUIField(DisplayName="Credit Record Verified")]
+]]></CDATA>
+    </Field>
+</DAC>
